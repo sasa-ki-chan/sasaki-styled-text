@@ -1,0 +1,31 @@
+{
+  "name": "styled-text",
+  "version": "1.0.0",
+  "description": "easy to use styled-text in console log",
+  "main": "dist/index.js",
+  "scripts": {
+    "sample": "ts-node src/sample.ts",
+    "build": "ts-node esbuild.ts"
+  },
+  "bin": {
+    "styled-text": "dist/index.js"
+  },
+  "keywords": [
+    "console",
+    "log",
+    "styled",
+    "typescript"
+  ],
+  "author": "sasaki <sasakisan.dev@gmail.com>",
+  "license": "MIT",
+  "packageManager": "pnpm@10.8.0",
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/node": "^22.14.0",
+    "esbuild": "^0.25.2",
+    "fs-extra": "^11.3.0",
+    "ts-node": "^10.9.2",
+    "tsc": "^2.0.4",
+    "typescript": "^5.8.3"
+  }
+}

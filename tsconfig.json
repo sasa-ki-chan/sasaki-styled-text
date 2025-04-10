@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "NodeNext",
+    "moduleResolution": "nodenext",
+
+    "rootDir": "./src",
+    // "baseUrl": "./",
+    "outDir": "./dist",
+    "sourceRoot":"./src",
+    "noEmitOnError": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "removeComments": true,
+    "sourceMap": true,
+    "noEmit": true,
+    "skipLibCheck": true,
+    "allowImportingTsExtensions": true,               /* Allow imports to include TypeScript file extensions. Requires '--moduleResolution bundler' and either '--noEmit' or '--emitDeclarationOnly' to be set. */
+    "resolvePackageJsonExports": true,                /* Use the package.json 'exports' field when resolving package imports. */
+    "resolvePackageJsonImports": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+  },
+  
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.json"
+  ],
+
+}
