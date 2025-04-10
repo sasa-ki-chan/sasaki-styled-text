@@ -1,6 +1,6 @@
 {
   "name": "sasaki-styled-text",
-  "version": "1.0.0",
+  "version": "0.0.1-dev",
   "description": "easy to use styled-text in console log",
   "main": "dist/index.js",
   "scripts": {
@@ -19,6 +19,7 @@
   "pubqlishConfig": {
     "@sasa-ki-chan:registry": "https://npm.pkg.github.com"
   },
+  "files": ["dist"],
   "author": "sasaki <sasakisan.dev@gmail.com>",
   "license": "MIT",
   "packageManager": "pnpm@10.8.0",

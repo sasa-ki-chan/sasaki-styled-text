@@ -1,8 +1,4 @@
 import { ANSI } from './modules/ANSI';
-import type { Styles } from './types';
-
-
-
 
 export const style = (
   styles: Styles | Array<Styles>,

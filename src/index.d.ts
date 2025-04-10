@@ -1,4 +1,6 @@
-export const ANSI:ANSITypes = {
+
+
+export const ANSI: ANSITypes = {
   bold: '\x1b[1m',
   dim: '\x1b[2m',
   italic: '\x1b[3m',
@@ -17,7 +19,7 @@ export const ANSI:ANSITypes = {
   magenta: '\x1b[35m',
   cyan: '\x1b[36m',
   white: '\x1b[37m',
-  
+
   // 背景色
   bgBlack: '\x1b[40m',
   bgGray: '\x1b[100m',
@@ -29,4 +31,4 @@ export const ANSI:ANSITypes = {
   bgCyan: '\x1b[46m',
   bgWhite: '\x1b[47m',
   RESET: '\x1b[0m'
-} 
+}; 
