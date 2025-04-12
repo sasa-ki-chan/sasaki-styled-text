@@ -1,6 +1,16 @@
 
+declare type Styles =
+  'bold' | 'dim' | 'italic' | 'blink' | 'underline' | 'inverse' | 'hidden' | 'strikethrough'  //style
+  | 'black' | 'red' | 'green' | 'yellow' | 'blue' | 'magenta' | 'cyan' | 'white' | 'gray' | 'gray' //color
+  | 'bgBlack' | 'bgGray' | 'bgRed' | 'bgGreen' | 'bgYellow' | 'bgBlue' | 'bgMagenta' | 'bgCyan' | 'bgWhite' | 'bgGray' //bgColot
 
-export const ANSI: ANSITypes = {
+  | 'RESET';
+
+declare type ANSITypes = {
+  [key in Styles]: string;
+} 
+
+declare const ANSI: ANSITypes = {
   bold: '\x1b[1m',
   dim: '\x1b[2m',
   italic: '\x1b[3m',

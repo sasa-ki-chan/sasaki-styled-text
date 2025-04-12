@@ -1,8 +1,9 @@
 {
-  "name": "sasaki-styled-text",
-  "version": "0.0.1-dev",
+  "name": "@sasaki/styled-text",
+  "version": "0.0.3-dev",
   "description": "easy to use styled-text in console log",
   "main": "dist/index.js",
+  "types": "@types/index.d.ts",
   "scripts": {
     "sample": "ts-node src/sample.ts",
     "build": "ts-node esbuild.ts"
@@ -14,12 +15,12 @@
     "console",
     "log",
     "styled",
+    "string",
     "typescript"
   ],
   "pubqlishConfig": {
     "@sasa-ki-chan:registry": "https://npm.pkg.github.com"
   },
-  "files": ["dist"],
   "author": "sasaki <sasakisan.dev@gmail.com>",
   "license": "MIT",
   "packageManager": "pnpm@10.8.0",

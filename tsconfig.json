@@ -1,10 +1,10 @@
 {
   "compilerOptions": {
-    "target": "ES6",
+    "target": "ES2022",
     "module": "NodeNext",
     "moduleResolution": "nodenext",
-    "declaration": true,
-    "rootDir": "./src",
+    "declaration": false,
+    // "rootDir": ".",
     // "baseUrl": "./",
     "outDir": "./dist",
     "sourceRoot":"./src",
@@ -19,7 +19,7 @@
   },
   
   "include": [
-    "src/**/*.ts",
+    "src/**/*.ts", "@types/index.d.ts",
   ],
 
 }
